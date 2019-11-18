@@ -1,5 +1,6 @@
 ## Cracking the Coding Interview Problems 6th ed.
 2019
+Programming language: Java 8
 
 ### Chapter 1 | Arrays and Strings
 - [ ] 1.1 Is Unique
