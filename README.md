@@ -54,7 +54,7 @@
 - [ ] 5.7 Pairwise Swap
 - [ ] 5.8 Draw Line
 
-### Chapter 7 Object Oriented Design
+### Chapter 7 | Object Oriented Design
 - [ ] 7.1 Deck of Cards
 - [ ] 7.2 Call Center
 - [ ] 7.3 Juke Box
@@ -69,7 +69,7 @@
 - [ ] 7.12 HashTable
 
 
-### Chapter 8 Recursion and Dynamic Programming
+### Chapter 8 | Recursion and Dynamic Programming
 - [ ] 8.1 Triple Step
 - [ ] 8.2 Robot in a Grid
 - [ ] 8.3 Magic Index
@@ -86,7 +86,7 @@
 - [ ] 8.14 Boolean Eveluations
 
 
-### Chapter 9 System Design and Scalability
+### Chapter 9 | System Design and Scalability
 - [ ] 9.1 Stock Data
 - [ ] 9.2 Social Network
 - [ ] 9.3 Web Crawler
@@ -96,7 +96,7 @@
 - [ ] 9.7 Personal Financial Manager
 - [ ] 9.8 Pastebin
 
-### Chapter 10 Sorting and Searching
+### Chapter 10 | Sorting and Searching
 - [ ] 10.1 Sorted Merge
 - [ ] 10.2 Group Anagrams
 - [ ] 10.3 Search in Rotated Array
