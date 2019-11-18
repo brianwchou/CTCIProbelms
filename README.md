@@ -1,8 +1,9 @@
 ## Cracking the Coding Interview Problems 6th ed.
 2019
+Programming language: Java 8
 
 ### Chapter 1 | Arrays and Strings
-- [ ] 1.1 Is Unique
+- [x] 1.1 Is Unique
 - [ ] 1.2 Check Permutation
 - [ ] 1.3 URLify
 - [ ] 1.4 Palindrome Permutation
