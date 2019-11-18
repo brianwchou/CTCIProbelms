@@ -31,8 +31,8 @@
 - [ ] 3.6 Animal Shelter
 
 ### Chapter 4 Trees and Graphs
-- [] 4.1
-- [] 4.2
+- [ ] 4.1
+- [ ] 4.2
 - [ ] 4.3
 - [ ] 4.4
 - [ ] 4.5
