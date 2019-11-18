@@ -11,6 +11,8 @@ public class IsUnique {
 
     /**
      * Complexity O(N) where N is the length of the input string
+     * Space Complexity is dependent on the number of characters that will be used within the string
+     * HashSet only grows with the number of characters are discoverable in the input.
      * 
      * @param string
      * @return boolean
