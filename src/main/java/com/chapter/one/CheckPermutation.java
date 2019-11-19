@@ -1,6 +1,7 @@
 package com.chapter.one;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class CheckPermutation {
     /*
@@ -9,16 +10,16 @@ public class CheckPermutation {
     */
 
     public static boolean isPermutation(String a, String b) {
-        HashMap<Character, Integer> mapA = fillMap(a);
-        HashMap<Character, Integer> mapB = fillMap(b);
+        Map<Character, Integer> mapA = fillMap(a);
+        Map<Character, Integer> mapB = fillMap(b);
         return mapA.equals(mapB);
     }
 
-    private static HashMap<Character, Integer> fillMap(String string) {
-        HashMap<Character, Integer> map = new HashMap<>();
+    private static Map<Character, Integer> fillMap(String string) {
+        Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < string.length(); i++) {
             int count = map.getOrDefault(string.charAt(i), 0);
-            map.put(string.charAt(i), count);
+            map.put(string.charAt(i), count + 1);
         }
         return map;
     }
