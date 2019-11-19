@@ -9,6 +9,13 @@ public class CheckPermutation {
         of the other.
     */
 
+    /**
+     * Runtime O(N + M) Space O(Characters)
+     * 
+     * @param String a
+     * @param String b
+     * @return boolean
+     */
     public static boolean isPermutation(String a, String b) {
         Map<Character, Integer> mapA = fillMap(a);
         Map<Character, Integer> mapB = fillMap(b);
