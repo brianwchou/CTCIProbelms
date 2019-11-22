@@ -4,6 +4,9 @@ import java.util.Optional;
 
 public class ReturnKthToLast {
 
+    /*
+        O(N) time constant space
+    */
     public static Optional<LLNode> returnKthToLast(LLNode head, int k) {
         if (head == null) {
             return Optional.empty();
