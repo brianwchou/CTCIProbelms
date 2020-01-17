@@ -28,5 +28,4 @@ public class ReturnKthToLast {
         }
         return Optional.of(answer);
     }
-
 }
