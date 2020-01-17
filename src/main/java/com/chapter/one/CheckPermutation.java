@@ -3,12 +3,12 @@ package com.chapter.one;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+    Given 2 strings, write a method to decide if one is a permutation 
+    of the other.
+*/
 public class CheckPermutation {
-    /*
-        Given 2 strings, write a method to decide if one is a permutation 
-        of the other.
-    */
-
+    
     /**
      * Runtime O(N + M) Space O(Characters)
      * 
