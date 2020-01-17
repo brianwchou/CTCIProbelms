@@ -8,7 +8,7 @@ public class IsUnique {
         Implement an algorithm to determine if a string has all unique characters. 
         What if you cannot use additional data structures?
     */
-
+    
     /**
      * Complexity O(N) where N is the length of the input string
      * Space Complexity is dependent on the number of characters that will be used within the string
