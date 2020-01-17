@@ -1,10 +1,7 @@
 package com.chapter.two;
 
-import static org.junit.Assert.assertEquals;
-
 import java.util.Optional;
 
-import org.junit.Test;
 
 public class ReturnKthToLastTest {
     @Test
