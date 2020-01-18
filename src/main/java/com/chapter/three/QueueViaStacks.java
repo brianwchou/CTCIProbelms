@@ -5,6 +5,22 @@ import java.util.Stack;
 /*
     Implement a Queue class which implements a queue 
     using two stacks
+
+    Explaination: the idea behind this data structure is to use one stack for adding items
+    and the other for polling and peeking. Only one stack may have ALL the data at a time 
+    because if you transfer values through thier pop and push operations one stack will 
+    have the reversed order of elements. We take advantage of this since queue adds in the 
+    back but removes from the front. When we take from the front we want the elements 
+    to be in the order we inserted them. 
+
+    size() - O(1)
+    isEmpty() - O(1)
+    clear() - O(N)
+    conatins() - O(N)
+
+    offer() - O(N)
+    poll() - O(N)
+    peek() - O(N)
 */
 public class QueueViaStacks {
 
@@ -29,6 +45,7 @@ public class QueueViaStacks {
         stack1.clear();
         stack2.clear();
     }
+
     /*
         first ones throw exception
         second returns a special value
@@ -37,7 +54,6 @@ public class QueueViaStacks {
         DELETE remove() poll()
         PEEK   element() peek()
     */
-    // ADD ELEMENT TO THE BACK OF THE
     public boolean offer(Integer e) {
         if (stack1.isEmpty()) {
             while(!stack2.isEmpty()) {
