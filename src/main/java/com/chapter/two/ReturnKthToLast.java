@@ -1,6 +1,7 @@
 package com.chapter.two;
 
 import java.util.Optional;
+import com.chapter.two.util.LLNode;;
 
 public class ReturnKthToLast {
 
@@ -27,5 +28,4 @@ public class ReturnKthToLast {
         }
         return Optional.of(answer);
     }
-
 }
