@@ -1,11 +1,14 @@
 package com.chapter.two;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import org.junit.Test;
+import com.chapter.two.util.LLNode;
+
+import org.junit.jupiter.api.Test;
+
 
 public class RemoveDupsTest {
     

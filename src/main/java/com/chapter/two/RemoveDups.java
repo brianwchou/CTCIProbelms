@@ -1,5 +1,7 @@
 package com.chapter.two;
 
+import com.chapter.two.util.LLNode;
+
 public class RemoveDups {
 
     public static void removeDups(LLNode head) {
