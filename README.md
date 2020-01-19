@@ -5,7 +5,7 @@ Programming language: Java 8
 ### Chapter 1 | Arrays and Strings
 - [x] 1.1 Is Unique
 - [x] 1.2 Check Permutation
-- [ ] 1.3 URLify
+- [x] 1.3 URLify
 - [ ] 1.4 Palindrome Permutation
 - [ ] 1.5 One Away
 - [ ] 1.6 String Compression
@@ -14,7 +14,7 @@ Programming language: Java 8
 - [ ] 1.9 String Rotation
 
 ### Chapter 2 | LinkedList
-- [ ] 2.1 Remove Dups
+- [x] 2.1 Remove Dups
 - [x] 2.2 Return Kth to Last
 - [ ] 2.3 Delete Middle Node
 - [ ] 2.4 Partition
@@ -27,7 +27,7 @@ Programming language: Java 8
 - [ ] 3.1 Three in One
 - [ ] 3.2 Stack min
 - [ ] 3.3 Stack of Plates
-- [ ] 3.4 Queue via Stacks
+- [x] 3.4 Queue via Stacks
 - [ ] 3.5 Sort Stacks
 - [ ] 3.6 Animal Shelter
 
