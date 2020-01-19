@@ -1,10 +1,11 @@
 package com.chapter.two;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 import java.util.Optional;
+import com.chapter.two.util.LLNode;;
 
-import org.junit.Test;
 
 public class ReturnKthToLastTest {
     @Test
