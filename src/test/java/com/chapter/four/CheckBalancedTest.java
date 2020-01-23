@@ -11,10 +11,8 @@ import org.junit.jupiter.api.Test;
 @DisplayName("Check Balenced Tree Problem")
 public class CheckBalancedTest {
     
-    
     @Test
     @DisplayName("show me this name")
-    @Disabled
     void checkBalanced_withNormalTree() {
         // arrage
         BTNode root = new BTNode(1);
@@ -25,8 +23,6 @@ public class CheckBalancedTest {
         root.left.right.left = new BTNode(6);
         root.right.right = new BTNode(7);
 
-        assertTrue(false/*CheckBalanced.isTreeBalancedNaive(root)*/, "");
-        
-        
+        assertTrue(CheckBalanced.isTreeBalancedNaive(root), "");
     }
 }
