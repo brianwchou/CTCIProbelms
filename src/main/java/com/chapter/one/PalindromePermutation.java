@@ -9,6 +9,11 @@ import java.util.HashMap;
 */
 public class PalindromePermutation {
 
+
+    /*
+        This implementation runs at O(N) where N is the length of the string
+        map only grows with the number of distint characters within the input string
+    */
     public static boolean isPermOfPalindrome(String permutation) {
         // looking for even number of characters
         HashMap<Character, Integer> map = new HashMap<>();
