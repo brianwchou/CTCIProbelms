@@ -6,7 +6,7 @@ Programming language: Java 8
 - [x] 1.1 Is Unique
 - [x] 1.2 Check Permutation
 - [x] 1.3 URLify
-- [ ] 1.4 Palindrome Permutation
+- [x] 1.4 Palindrome Permutation
 - [ ] 1.5 One Away
 - [ ] 1.6 String Compression
 - [ ] 1.7 Rotate Matrix
@@ -35,7 +35,7 @@ Programming language: Java 8
 - [ ] 4.1 Route Between Nodes
 - [ ] 4.2 Minimal Tree
 - [ ] 4.3 List of Depths
-- [ ] 4.4 Check Balanced
+- [x] 4.4 Check Balanced
 - [ ] 4.5 Validate BST
 - [ ] 4.6 Successor
 - [ ] 4.7 Build Order
