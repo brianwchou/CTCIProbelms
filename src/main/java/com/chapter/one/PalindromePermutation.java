@@ -8,8 +8,6 @@ import java.util.HashMap;
     palindrome does not need to be limited to just dictionary words.
 */
 public class PalindromePermutation {
-
-
     /*
         This implementation runs at O(N) where N is the length of the string
         map only grows with the number of distint characters within the input string
